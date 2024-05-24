@@ -13,7 +13,7 @@ Computer Organization - Spring 2024
 # Quicksort Algorithm 
 
 ## Introduction to Quicksort
-This document provides a detailed explanation of the RISC-V assembly code implementing the quicksort algorithm. Quicksort is a highly efficient sorting algorithm that operates using a divide-and-conquer strategy. The time complexity of quicksort is amortized \(O(n \log n)\) and worst case \(O(n^2)\). The space complexity is \(O(\log n)\) due to the recursion stack.
+Quicksort is a highly efficient sorting algorithm that operates using a divide-and-conquer strategy. The time complexity of quicksort is amortized \(O(n \log n)\) and worst case \(O(n^2)\). The space complexity is \(O(\log n)\) due to the recursion stack.
 
 ![Quicksort GIF](./Images/Sorting_quicksort_anim.gif)
 
