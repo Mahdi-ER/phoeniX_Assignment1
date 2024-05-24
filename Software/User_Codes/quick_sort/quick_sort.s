@@ -20,6 +20,13 @@ Main:
     addi a2, x0, 4 # end
 
     jal ra, QUICKSORT
+
+    # Load sorted array into s2-s6
+    lw s2, 0(a0)
+    lw s3, 4(a0)
+    lw s4, 8(a0)
+    lw s5, 12(a0)
+    lw s6, 16(a0)
     jal ra, End
 
 QUICKSORT:
@@ -111,10 +118,4 @@ CURR_ELEMENT_GTE_PIVOT:
     jalr x0, ra, 0
 
 End:
-    # Load sorted array into s2-s6
-    lw s2, 0(a0)
-    lw s3, 4(a0)
-    lw s4, 8(a0)
-    lw s5, 12(a0)
-    lw s6, 16(a0)
     ebreak
