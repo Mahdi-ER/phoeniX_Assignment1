@@ -4,7 +4,7 @@ Computer Organization - Spring 2024
 ## Assignment 1: Assembly code execution on phoeniX RISC-V core
 
 - Name: Mahdi EbrahimiRavesh
-- Team Members: Amirmohammad Salek
+- Team Members: Amirmohammad Salek, Mohammad Arabzadeh
 - Student ID: 400411009
 - Date: 5/24/2024
 
